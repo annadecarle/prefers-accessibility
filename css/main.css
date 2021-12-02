@@ -61,13 +61,17 @@ html {
 
 }
 
+
+
+@media {
+  (prefers-reduced-motion) {[^]}+animation:
+}
+
 /* stylelint-disable media-feature-name-no-unknown */
 
 /**
  * =============
  * Write your “prefers” media queries here, between these two `stylelint` comments.
- prefers-reduced-motion
- prefers-color-scheme
  * Unfortunately, Markbot, is a little too old to understand them. :(
  * =============
  */
